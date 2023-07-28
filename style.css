@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    
+}
+.word-container {
+    left: 0;
+    right:0;
+    top:0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: white;
+    font-size: 12rem;
+    font-family: 'Mali', cursive;
+}
+
+  
+/* media Qurey: Tablet or smaller */
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 850px) and (min-width: 650px) {
+    h1 {
+        font-size: 8rem;
+    }
+}
+
+@media screen and (max-height: 350px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
